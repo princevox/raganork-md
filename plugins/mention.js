@@ -45,7 +45,7 @@ function isSudoUser(jid) {
 }
 
 Module({
-    pattern: 'mention ?(.*)',
+    pattern: 'mention ?(.https://i.imgur.com/sLMR0mQ.mp4*)',
     fromMe: true,
     desc: "Auto mention reply management",
     usage: ".mention set (reply to message) | .mention set <text> | .mention get | .mention del | .mention help"
